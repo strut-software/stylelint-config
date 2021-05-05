@@ -42,7 +42,7 @@ Afterwards, you will be able to run your desired lint command to use the newly-i
 ```javascript
 "devDependencies": {
     ...
-    "@strut-software/stylelint-config": "^1.0.0",
+    "@strut-software/stylelint-config": "^1.0.2",
     ...
 }
 ```
