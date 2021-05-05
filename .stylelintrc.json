@@ -136,6 +136,7 @@
     },
     "selector-class-pattern": "[a-z](-[a-z])?",
     "selector-id-pattern": "[a-z](-[a-z])?",
-    "function-url-no-scheme-relative": true
+    "function-url-no-scheme-relative": true,
+    "selector-type-no-unknown": false
   }
 }
