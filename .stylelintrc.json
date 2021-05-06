@@ -137,6 +137,6 @@
     "selector-class-pattern": "[a-z](-[a-z])?",
     "selector-id-pattern": "[a-z](-[a-z])?",
     "function-url-no-scheme-relative": true,
-    "selector-type-no-unknown": null
+    "selector-type-no-unknown": [true, { "ignoreTypes": ["/^mat-/","/^retrace-/"] }]
   }
 }
