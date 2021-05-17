@@ -1,16 +1,19 @@
+'use strict';
+
 module.exports = {
-    "extends": "stylelint-config-standard",
-    "plugins": [
+    extends: "stylelint-config-standard",
+    plugins: [
         "stylelint-scss"
     ],
-    "rules": {
+    rules: {
         "at-rule-allowed-list": [
             "function",
             "return",
             "import",
             "font-face",
             "mixin",
-            "include"
+            "include",
+            "use"
         ],
         "at-rule-no-unknown": null,
         "scss/at-rule-no-unknown": true,
@@ -134,8 +137,10 @@ module.exports = {
                 "%"
             ]
         },
+        "no-invalid-position-at-import-rule": null,
         "selector-class-pattern": "[a-z](-[a-z])?",
         "selector-id-pattern": "[a-z](-[a-z])?",
-        "function-url-no-scheme-relative": true
+        "function-url-no-scheme-relative": true,
+        "selector-type-no-unknown": [true, { "ignoreTypes": ["/^mat-/","/^retrace-/"] }]
     }
 }
