@@ -1,6 +1,6 @@
 {
   "name": "@strut-software/stylelint-config",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Standard set of stylelint rulesets to be used across Strut and Rithm projects",
   "scripts": {},
   "repository": {
