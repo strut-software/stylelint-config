@@ -10,7 +10,8 @@
       "import",
       "font-face",
       "mixin",
-      "include"
+      "include",
+      "use"
     ],
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true,
