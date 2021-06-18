@@ -13,7 +13,8 @@ module.exports = {
             "font-face",
             "mixin",
             "include",
-            "use"
+            "use",
+            "media"
         ],
         "at-rule-no-unknown": null,
         "scss/at-rule-no-unknown": true,
@@ -141,6 +142,6 @@ module.exports = {
         "selector-class-pattern": "[a-z](-[a-z])?",
         "selector-id-pattern": "[a-z](-[a-z])?",
         "function-url-no-scheme-relative": true,
-        "selector-type-no-unknown": [true, { "ignoreTypes": ["/^mat-/","/^retrace-/"] }]
+        "selector-type-no-unknown": [true, { "ignoreTypes": ["/^mat-/","/^app-/","/^retrace-/"] }]
     }
 }
