@@ -142,6 +142,7 @@ module.exports = {
         "selector-class-pattern": "[a-z](-[a-z])?",
         "selector-id-pattern": "[a-z](-[a-z])?",
         "function-url-no-scheme-relative": true,
-        "selector-type-no-unknown": [true, { "ignoreTypes": ["/^mat-/","/^app-/","/^retrace-/"] }]
+        "selector-type-no-unknown": [true, { "ignoreTypes": ["/^mat-/","/^app-/","/^retrace-/"] }],
+        "ignorePseudoElements": ["ng-deep"]
     }
 }
