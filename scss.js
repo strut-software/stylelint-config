@@ -143,6 +143,9 @@ module.exports = {
         "selector-id-pattern": "[a-z](-[a-z])?",
         "function-url-no-scheme-relative": true,
         "selector-type-no-unknown": [true, { "ignoreTypes": ["/^mat-/","/^app-/","/^retrace-/"] }],
-        "selector-pseudo-element-allowed-list": ["ng-deep"]
+        "selector-pseudo-element-allowed-list": ["ng-deep"],
+        "selector-pseudo-element-no-unknown": [true, {
+            "ignorePseudoElements": ["ng-deep"]
+        }]
     }
 }
