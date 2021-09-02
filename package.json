@@ -1,12 +1,13 @@
 {
   "name": "@strut-software/stylelint-config",
-  "version": "1.0.11",
-  "description": "Standard set of stylelint rulesets to be used across Strut and Rithm projects",
+  "version": "0.0.0",
+  "description": "An opinionated collection of stylelint configs to be used across Strut and Rithm projects",
   "scripts": {},
   "repository": {
     "type": "git",
     "url": "git@github.com:strut-software/stylelint-config.git"
   },
+  "private": false,
   "keywords": [
     "rithm",
     "strut",
@@ -21,6 +22,11 @@
     "style"
   ],
   "author": "Austin Bagley",
+  "bugs": {
+    "url": "https://github.com/strut-software/stylelint-config/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/strut-software/stylelint-config#readme",
   "devDependencies": {
     "semantic-release": "^17.4.7",
     "stylelint": "^13.13.1",
@@ -35,5 +41,8 @@
   "main": "scss.js",
   "files": [
     "scss.js"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
