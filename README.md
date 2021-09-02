@@ -2,11 +2,13 @@
 
 ## Description
 
-This package contains a standard set of stylelint rules to be used across Strut Software Solutions projects and Rithm Software projects. This is to ensure each project has the same set of rules to keep projects consistent.
+This package contains a standard set of stylelint configs to be used across Strut Software Solutions projects and Rithm Software projects. This is to ensure each project has the same set of rules to keep projects consistent.
 
-Lint rules exist for the following uses:
+## Configs
 
-* SCSS
+Config files exist for the following use cases and are summarized below.
+
+* `scss` - Recommended rules for projects using SCSS.
 
 ## Installation
 
@@ -18,7 +20,7 @@ npm i @strut-software/stylelint-config --save-dev
 
 ## Usage
 
-Once the package is installed, add the desired rulesets to the `"extends"` section of the `.stylelintrc.json` in the root of your project:
+Once the package is installed, add the desired configs to the `"extends"` section of the `.stylelintrc.json` in the root of your project:
 
 ```javascript
 {
@@ -42,7 +44,7 @@ Afterwards, you will be able to run your desired lint command to use the newly-i
 ```javascript
 "devDependencies": {
     ...
-    "@strut-software/stylelint-config": "^1.0.11",
+    "@strut-software/stylelint-config": "^1.1.0",
     ...
 }
 ```
