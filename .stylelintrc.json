@@ -12,7 +12,8 @@
       "mixin",
       "include",
       "use",
-      "media"
+      "media",
+      "apply"
     ],
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true,
@@ -136,6 +137,7 @@
         "%"
       ]
     },
+    "no-empty-source": false,
     "selector-class-pattern": "[a-z](-[a-z])?",
     "selector-id-pattern": "[a-z](-[a-z])?",
     "function-url-no-scheme-relative": true,
