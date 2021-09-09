@@ -139,7 +139,7 @@ module.exports = {
         "%"
       ]
     },
-    "no-empty-source": false,
+    "no-empty-source": null,
     "no-invalid-position-at-import-rule": null,
     "selector-class-pattern": "[a-z](-[a-z])?",
     "selector-id-pattern": "[a-z](-[a-z])?",
