@@ -14,7 +14,8 @@ module.exports = {
       "mixin",
       "include",
       "use",
-      "media"
+      "media",
+      "apply"
     ],
     "at-rule-no-unknown": null,
     "scss/at-rule-no-unknown": true,
@@ -138,6 +139,7 @@ module.exports = {
         "%"
       ]
     },
+    "no-empty-source": false,
     "no-invalid-position-at-import-rule": null,
     "selector-class-pattern": "[a-z](-[a-z])?",
     "selector-id-pattern": "[a-z](-[a-z])?",
